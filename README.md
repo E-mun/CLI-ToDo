@@ -1,7 +1,7 @@
-## Task Manager Application
-A simple command-line task manager written in Python. This app allows users to add, mark as complete, undo, delete, clear the task list, and exit the program. Tasks are stored in a JSON file (data.json), which is automatically updated with each action.
+# Task Manager Application
+## A simple command-line task manager written in Python. This app allows users to add, mark as complete, undo, delete, clear the task list, and exit the program. Tasks are stored in a JSON file (data.json), which is automatically updated with each action.
 
-# Features
+## Features
 Add tasks to the list
 Mark tasks as completed or mark tasks as incomplete
 Delete tasks from the list
@@ -9,11 +9,11 @@ Clear the console screen
 Exit the application
 The tasks are saved in a JSON file (data.json), and the application loads and saves the tasks on each action.
 
-# Requirements
+## Requirements
 Python 3.x
 No external libraries are required for this application.
 
-# Installation
+## Installation
 Clone this repository to your local machine:
 
 bash
@@ -33,7 +33,7 @@ python3 task_manager.py
 Usage
 Once the script is running, you'll interact with the application via the terminal. It will display a list of tasks and prompt you for input. Here are the commands you can use:
 
-# Commands
+## Commands
 add <task_name>: Adds a task to the list.
 
 Example: add Task 1
@@ -50,7 +50,7 @@ clear: Clears the terminal screen (works only in supported terminals).
 
 exit: Exits the application.
 
-# Example Interaction
+### Example Interaction
 bash
 Copy
 --List of Tasks--
@@ -91,7 +91,7 @@ Copy
 }
 When a task is added, completed, or deleted, the JSON file is updated accordingly.
 
-# Error Handling
+## Error Handling
 If the data.json file is not found or is empty, the application will create and start with an empty task list.
 Invalid or unrecognized commands will prompt the user to revise their input.
 
