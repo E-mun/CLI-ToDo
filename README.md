@@ -1,5 +1,5 @@
 # Task Manager Application
-## A simple command-line task manager written in Python. This app allows users to add, mark as complete, undo, delete, clear the task list, and exit the program. Tasks are stored in a JSON file (data.json), which is automatically updated with each action.
+## A simple command-line task manager written in Python. This app allows users to add, mark as complete, undo, delete, clear the terminal of clutter, and exit the program. Tasks are stored in a JSON file (data.json), which is automatically updated with each action.
 
 ## Features
 Add tasks to the list
